@@ -1,13 +1,15 @@
-# CUMA-with-coded-modulation
+# CUMA With Coded Modulation
 
 ## Description
 Due to the recent growth in mobile data demand, the sixth generation (6G) requires higher throughput and coverage than the fifth generation (5G). To achieve this goal, we propose a new multiple access technique named Compact Ultra Massive Antenna Array (CUMA) to realise massive connectivity. In this simulation, the antennas are spatially tightly spaced at the transmitter side and a two-dimensional Fluid Antenna System (2D-FAS) is used at each user equipment (UE), which requires a large number of ports to be selected for reception during the channel transformation process, which are aggregated to be the signals that need to be decoded. Specifically, the UE only needs two radio-frequency (RF) chains to constructively combine the in-phase and quadrature components of the desired signal, while the interference signals are randomly accumulated. To enhance the reliability and efficiency of original CUMA systems, Turbo codes and LDPC codes are added, which improve error correction by introducing redundancy, allowing the system to recover error data during transmission. Our results will demonstrated based on the BER which is the main metric to evaluate the CUMA system's performance. 
 
-### Comparisons  
+## Comparisons  
 1. modulation schemes: BPSK, QPSK, 16-QAM, 64-QAM and 256-QAM
 2. different parameters: the number of multipath L,  the rice factor K in the Rician channel, the number of selected ports, the total number of ports N, the SNR, and the number of UEs
 
 ## Project structure
+-- CUMA with coded modulation
+```
 - Original CUMA System
 - CUMA with Turbo codes
 - CUMA with LDPC codes
