@@ -16,8 +16,8 @@ Due to the recent growth in mobile data demand, the sixth generation (6G) requir
 - README.md
 ```
 - `Original CUMA System/`: The base version of CUMA system under different modulations and compare their BER with different parameters.
-- `CUMA with Turbo codes/`: The CUMA system with Turbo codes contains a performance comparison under different modulation schemes and parameters. The post-run data has been saved to a /data for further analysis.
-- `CUMA with LDPC codes/`: The CUMA system with LDPC codes contains a performance comparison under different modulation schemes and parameters. The post-run data has been saved to a /data for further analysis.
+- `CUMA with Turbo codes/`: The CUMA system with Turbo codes contains a performance comparison under different modulation schemes and parameters. The post-run data has been saved to a `data/` subfolder for further analysis.
+- `CUMA with LDPC codes/`: The CUMA system with LDPC codes contains a performance comparison under different modulation schemes and parameters. The post-run data has been saved to a `data/` subfolder for further analysis.
 - `README.md`:The README file for the project.
 
 ## Program run instruction
@@ -26,4 +26,4 @@ Due to the recent growth in mobile data demand, the sixth generation (6G) requir
 3. Open each folder to run the corresponding part
 4. The instructions for each part are detailed in the readme file within each folder
 5. Execute the provided scripts to generate data and compare BER performance
-6. Analyze the data: Review the generated data in the /data folder to compare the performance under different conditions
+6. Analyze the data: Review the generated data in the `data/` subfolder to compare the performance under different conditions
